@@ -1,0 +1,2 @@
+#!/bin/sh
+xterm -e 'luit -encoding CP1251 cbedic $(xclip -o -selection clipboard); read'
